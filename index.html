@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="index.js"></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="wrapper__icon-box"><img src="icons/arrow-left.svg" class='wrapper__icon'></img>Weather App</header>
+        <section class="wrapper__input-box">
+            <p class="wrapper__info-txt"></p>
+            <input class="wrapper__input" type="text" placeholder="Enter city name" spellcheck="false" required>
+            <div class="wrapper__separator"></div>
+            <button class="wrapper__button">Get Device Location</button>
+        </section>
+        <section class="weather">
+            <img class="weather__icon" src="icons/clear.svg" alt="Weather icon">
+            <div class="weather__temp">
+                <span class="weather__numb"></span>
+                <span class="weather__deg">°</span>C
+            </div>
+            <div class="weather__txt"></div>
+            <div class="weather__location-box">
+                <img class="weather__map" src="icons/map-pin.svg" alt="">
+                <span class="weather__location"></span>
+            </div>
+            <div class="weather__bottom">
+                <div class="weather__column">
+                    <img src="icons/termometro.png" alt="">
+                    <div class="weather__details">
+                        <div class="weather__temp">
+                            <span class="weather__numb">13</span>
+                            <span class="weather__deg">°</span>C
+                        </div>
+                        <p class="feel">Feels like</p>
+                    </div>
+                </div>
+
+                <div class="weather__column humidity">
+                    <img src="icons/soltar.png" alt="">
+                    <div class="weather__details">
+                        <div class="weather__temp">
+                            <span class="weather__numb">13</span>
+                            <span class="weather__deg">%</span>
+                        </div>
+                        <p>humidity</p>
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+    </div>
+</body>
+</html>
