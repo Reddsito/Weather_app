@@ -3,6 +3,7 @@
   background: #fff;
   width: 400px;
   border-radius: 7px;
+  margin: 15px;
 }
 .wrapper.--active .wrapper__input-box {
   display: none;
