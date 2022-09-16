@@ -8,7 +8,7 @@
 This is a web application that shows you the current weather of the city or country you want, or otherwise the location where you are.
 
 ## Links
-* Live Site URL: ![Weather APP](https://euphonious-praline-fe7293.netlify.app/)
+* Live Site URL: [Weather APP](https://euphonious-praline-fe7293.netlify.app/)
 
 
 ## My Process.
